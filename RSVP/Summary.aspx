@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Summary.aspx.cs" Inherits="RSVP.Summary" %>
+<%@ Import Namespace="RSVP" %>
 
 <!DOCTYPE html>
 
@@ -23,12 +24,28 @@
                     </tr>
                 </thead>
                 <tbody>
-
-                </tbody>
-                <% var yesData = ResponseRepository.GetRepository().GetAllResponses()
+                    <% var yesData = ResponseRepository.GetRepository().GetAllResponses()
                         .Where(r => r.WillAttend.Value);
-                    foreach (var rsvp in yesData) { string htmlString = String.Format("<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td>", rsvp.Name, rsvp.Email, rsvp.Phone, rsvp.Rdata);
-                        Response.Write(htmlString); } %>
+                    foreach (var rsvp in yesData)
+                        {
+                            string htmlString = String.Format("<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td>", rsvp.Name, rsvp.Email, rsvp.Phone, rsvp.Rdata);
+                            Response.Write(htmlString);
+                        }
+                    %>
+                </tbody>
+            </table>
+            <h3>Участники без доклада: </h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Email</th>
+                        <th>Телефон</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <%= GetNoShowHtml()%>
+                </tbody>
             </table>
         </div>
     </form>
