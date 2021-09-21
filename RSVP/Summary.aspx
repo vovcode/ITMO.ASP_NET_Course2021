@@ -1,16 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Summary.aspx.cs" Inherits="RSVP.Summary" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Summary.aspx.cs" Inherits="RSVP.Summary" %>
 <%@ Import Namespace="RSVP" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <meta http-equiv ="content-type" content ="text/html"; charset="utf-8"/>
     <title>Участники семинара</title>
-    <link rel="stylesheet" href="Styles.css" />
-</head>
-<body>
-    <form id="form1" runat="server">
         <div>
             <h2>Приглашения</h2>
             <h3>Выступающие с докладом: </h3>
@@ -48,6 +40,4 @@
                 </tbody>
             </table>
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>
