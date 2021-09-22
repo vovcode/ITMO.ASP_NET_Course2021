@@ -41,5 +41,9 @@ button[type=submit] {
 .auto-style2 {
     width: 200px;
 }
-
-</style >
+.footer_menu li {
+    margin: 0px;
+    padding: 0 20px;
+    display: inline;
+    border-right: 1px solid #000000;
+}
