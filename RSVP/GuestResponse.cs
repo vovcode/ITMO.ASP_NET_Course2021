@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data.Entity;
 
 namespace RSVP
 {
     public class GuestResponse
     {
-        public int GuestResponseIdId { get; set; }
+        public int GuestResponseId { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
