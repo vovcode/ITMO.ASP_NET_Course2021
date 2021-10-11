@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSVP", "RSVP\RSVP.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webforms Labs 01-08", "Webforms Labs 01-08", "{8EDCACC2-29FB-4F09-8839-3A3E79D8091F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC Labs 01-08", "MVC Labs 01-08", "{676D7A7C-0506-46F2-B50D-A2EC672893FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCR1", "WebMVCR1\WebMVCR1.csproj", "{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{DE602293-FADF-4412-95FB-58EE451C186B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE602293-FADF-4412-95FB-58EE451C186B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE602293-FADF-4412-95FB-58EE451C186B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DE602293-FADF-4412-95FB-58EE451C186B} = {8EDCACC2-29FB-4F09-8839-3A3E79D8091F}
+		{C8C169D7-517D-453A-A3D1-FCA6A71DEEBD} = {676D7A7C-0506-46F2-B50D-A2EC672893FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF460480-FE92-4019-AAC8-211EDAE17C15}
