@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSVP", "RSVP\RSVP.csproj", "{DE602293-FADF-4412-95FB-58EE451C186B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs 01-08", "Labs 01-08", "{8EDCACC2-29FB-4F09-8839-3A3E79D8091F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Webforms Labs 01-08", "Webforms Labs 01-08", "{8EDCACC2-29FB-4F09-8839-3A3E79D8091F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
